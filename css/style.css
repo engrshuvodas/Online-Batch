@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.title{
+	color: rgb(62, 51, 51);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* =================Header Part Start=================*/
+
+.header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav .navlogo img{
+    height: 70px;
+    cursor: pointer;
+}
+.header nav .navbar{
+	display: flex;
+	align-items: center;
+}
+.header nav .navbar ul{
+	margin-top: 10px;
+}
+.header nav .navbar ul li{
+    padding: 0 10px;
+	
+}
+.header nav .navbar ul a{
+    display: inline-block;
+	font-size: 18px;
+	color:#444;
+	transition: .4s;
+}
+.header nav .navbar ul a:hover{
+	color: #0270bb;
+}
+.header .connect{
+    color:  #652d92;
+    border: 1px solid #652d92;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    transition: .4s;
+    cursor: pointer;  
+}
+.header .connect:hover{
+    background-color: #652d92;
+    border:  1px solid #fff;
+    color: #fff;
+}
+/* =================Header Part End=================*/
+
+
+/* =================Our-update Part Start===========*/
+.update-news{
+	background:rgb(161, 37, 37);
+	margin-bottom: 30px;
+ }
+ .update-news img{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+ }
+/* =================Our-update Part End===========*/
+
+
+/* ================All-Courses Part start==========*/
+.All-Courses .courses-item{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	background: #f5f5f5;
+	padding: 50px 0 30px 0;
+}
+.All-Courses .courses-item .item-left{
+	width: 48%;
+	padding-left: 40px;
+}
+
+#accordionFlushExample .accordion-item{
+	background: #f5f5f5;
+}
+#accordionFlushExample .accordion-item .subject-logo{
+	height: 65px;
+	width: 65px;
+	background: rgb(253, 189, 13);
+	border-radius: 50%;
+	margin-right: 18px;
+	position: relative;
+}
+#accordionFlushExample .accordion-item .subject-logo img{
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+}
+.All-Courses .courses-item .item-right{
+	width: 48%;
+	padding-right: 40px;
+}
+#accordionFlushExample .accordion-item{
+	margin-bottom: 20px;
+}
+#accordionFlushExample .accordion-item button{
+	background: #f5f5f5;
+	padding: 0px 0px 10px 0px;
+}
+#accordionFlushExample .accordion-item{
+	background: #f5f5f5;
+}
+#accordionFlushExample .accordion-item h4{
+	font-size: 24px;
+}
+#accordionFlushExample .accordion-item .subject-logo{
+	height: 65px;
+	width: 65px;
+	background: rgb(253, 189, 13);
+	border-radius: 50%;
+	margin-right: 18px;
+	position: relative;
+}
+
+#accordionFlushExample .accordion-item .subject-logo img{
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+}
+/* ================All-Courses Part End==========*/
+
+
+/* =============Top categories Part Start==========*/
+.Top-categories{
+	margin-bottom: 100px;
+}
+.Top-categories .main{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.Top-categories .main .categories{
+	width: 30%;
+	background: #f7f9fa;
+}
+.Top-categories .main .categories .text h1{
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+.Top-categories .main .categories .item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Top-categories .main .categories .item img{
+	height: 280px;
+	width: 280px;
+}
+.Top-categories .main .categories .text{
+	background: rgb(254, 254, 254);
+	padding: 10px 0px;
+}
+/* =============Top categories Part End==========*/
+
+
+/* =================Work Part Start=============*/
+.work-part{
+	margin-bottom: 50px;
+}
+.work-part .work-title h1{
+	text-align: center;
+	color: #444;
+	font-family: 'Gloock', serif;
+	font-size: 50px;
+	font-weight: 400;	
+}
+.work-part .work-title p{
+	text-align: center;
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+.work-part .work{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+.work-part .work .work-item{
+	width: 30%;
+	background: #eee;
+	position: relative;
+	border-radius: 15px;
+}
+.work-part .work .work-item .service{
+	height: 150px;
+	width: 150px;
+	background: rgb(255, 255, 255);
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-80%);
+}
+.work-part .work .work-item .service .border-shape{
+	height: 140px;
+	width: 140px;
+	border: 2px solid rgb(208, 201, 201);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.work-part .work .work-item .service .border-shape .icon-shape{
+	height: 130px;
+	width: 130px;
+	background: rgb(235, 236, 237);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.work-part .work .work-item .service .border-shape .icon-shape img{
+	width: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.work-part .work .work-item .service-title{
+	margin-top: 50px;
+}
+.work-part .work .work-item .text_part{
+	padding: 0px 20px 20px 20px;
+	box-sizing: border-box;
+}
+.work-part .work .work-item .service-title{
+	text-align: center;
+}
+.work-part .work .work-item .service-title h1{
+	margin-bottom:20px;
+	color: #444;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+}
+.work-part .work .work-item .text{
+	display: flex;
+	margin-top: 10px;
+}
+.work-part .work .work-item .text i{
+	margin-right: 18px;
+	margin-top: 10px;
+	color: #444;
+
+}
+.work-part .work .work-item .text h2{
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+/* =================Work Part Endt=============*/
+
+.middle-arrow{
+	text-align: center;
+}
+.middle-arrow i{
+	font-size: 150px;
+	color: #e7e7e7;
+}
+
+
+/* =================Finally Part Start==========*/
+.finally_part {
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+.finally_part .final_part{
+	text-align: center;
+	margin-top: 50px;
+}
+.finally_part .final_part .final h2{
+	color: #fff;
+	display: inline;
+	padding: 20px 60px;
+	box-sizing: border-box;
+	background: #ad692a;
+	border-radius: 5px;
+}
+.finally_part .item_part{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+.finally_part .item_part .item-option{
+	width: 45%;
+	padding:10px 0px 0px 0px;
+	box-sizing:border-box;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.finally_part .item_part .item-option .item{
+	display: flex;
+
+}
+.finally_part .item_part .item-option .item-point p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #444;
+
+}
+.finally_part .item_part .item-option .item .item-icon{
+	margin-right: 20px;
+}
+.finally_part .item_part .item-option .item .item-icon i{
+	margin-top: 15px;
+}
+
+.finally_part .item_part .item-picture{
+	width: 55%;
+}
+.finally_part .item_part .item-picture .overlay{
+	background: #000;
+}
+.finally_part .item_part .item-picture img{
+	width: 100%;
+	border-radius: 10px;
+}
+/* =================Finally Part End==========*/
+
+
+/* ============ Student-review-patrt Part start========= */
+
+#review-part .title h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+}
+#review-part .title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+#review-part .slider_part{
+	padding: 20px 0;
+	border: 5px solid #fff;
+	border-radius: 20px;
+	background: #b27171;
+}
+#review-part .slider_part .slider-icon{
+	text-align: center;
+}
+#review-part .slider_part .slider-icon i{
+	color: #ffffff;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+#review-part .slider_part .slider_details{
+	padding: 0 150px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#review-part .slider_part .slider_details .slider_text{
+	color: #fff;
+	background: #c19514;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	width: 600px;
+	padding: 10px 50px;
+	box-sizing: border-box;
+}
+#review-part .slider_part .slider_details .slider_text p strong{
+	margin-right: 5px;
+}
+#review-part .slider_part .slider_details .slider_text p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+#review-part .slider_part .slider_picture .slider_image {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	margin-right: 10px;
+}
+#review-part .slider_part .slider_picture .slider_image img{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+#review-part .slider_part .slider_picture .slider_image h3{
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#review-part .slider_part .slider_picture .slider_image p{
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+.slick-dots{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.slick-dots li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.slick-dots li button{
+	font-size: 0;
+	height: 20px;
+	width: 20px;
+	border: 1px solid #fff;
+	background: transparent;
+	border-radius: 50%;
+}
+.slick-dots .slick-active button{
+	background: #fff;
+	background: 1px solid #000;
+}
+ /* ============= Student-review-patrt Part end =========== */
+
+
+ /* =============== JoinUs Part Start ==================== */
+.join-us{
+    background:url(../images/join-us.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 250px ;
+    padding-bottom: 100px;
+ }
+.join-us .join{
+    margin-top: 30px;
+}
+.join-us .join a{
+    color: #fff;
+    background: #1a2142;
+    border-radius: 5px;
+	font-size: 18px;
+    padding: 18px 60px;
+}
+ /* ==================== JoinUs Part End ==================== */
+
+
+/*--================ Start count_part Part ================--*/
+#count_part{
+	margin-bottom: 100px;
+}
+#count_part .main{
+	width: 100%;
+	background: #fff;
+	box-shadow: 0px 5px 25px 5px rgba(0,0,0,0.09);
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	border-radius: 15px;
+}
+#count_part .main .items{
+	width: 20%;
+}
+#count_part .main .items img{
+	height: 70px;
+	width: 70px;
+}
+#count_part .main .items h1{
+	color: #000;
+	margin: 10px 0 0 0;
+	font-family: 'Open Sans', sans-serif;
+}
+#count_part .main .items p{
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+/*--================ End count_part Part ================--*/
+
+
+/*--================ Start Contact Part ================--*/
+.contact_part{
+	background: #f5f5f5;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+.contact_part .contact{
+	display: flex;
+	justify-content: space-between;
+}
+.contact_part .contact .form-part{
+	width: 50%;
+}
+.contact_part .contact form{
+    background: #eee;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.contact_part .contact form h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;
+}
+.contact_part .contact form p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000;
+}
+.contact_part .contact form input{
+    height:40px;
+    width: 100%;
+	margin-bottom: 30px;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+}
+.contact_part .contact form .anchor{
+	width: 100%;
+	margin-top: 20px;
+    text-align: center;
+}
+.contact_part .contact form .anchor a{
+	color: #fff;
+	background: #475dff;
+	padding: 15px 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300px;
+	transition: .4s;
+	border-radius: 10px;
+}
+.contact_part .contact form .anchor:hover a{
+	background: #cf278d;
+}
+.contact_part .contact .picture-part{
+	width: 45%;
+	background: #444;
+
+}
+/*--================ End Contact Part ================--*/
+
+
+/*--================ Start Footer Part ================--*/
+.footer_part{
+    background:#1c1d1f;
+    padding: 40px 0px;
+    box-sizing: border-box;
+}
+.footer_part .footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_part .footer .footer_contactpart .footer_logo img{
+    height: 100px;
+    margin-bottom: 30px;
+}
+.footer_part .footer .footer_contactpart{
+    width: 35%;
+}
+.footer_part .footer .footer_contactpart .contact{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.footer_part .footer_contactpart .contact .contact-icon i{
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 50%;
+	background: #5bc5f4;
+	color: #fff;
+}
+.footer_part .footer_contactpart .contact .contact-text{
+	width: 80%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.footer_part .footer_contactpart .contact .contact-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+    color: #fff;
+}
+.footer_part .footer .footer_linkspart{
+    width:25%;
+}
+.footer_part .footer .footer_linkspart h1{
+   font-size: 30px;
+   margin: 15px 0px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   color: #fff;
+}
+.footer_part .footer .footer_linkspart ul li{
+    font-size: 16px;
+    padding: 8px 0px;
+	color: #ffffff;
+	transition: .4s;
+ }
+ .footer_part .footer .footer_linkspart ul li:hover{
+ 	color: #61c5f0;
+ }
+.footer_part .footer .footer_aboutpart{
+    width:  40%;
+}
+.footer_part .footer_aboutpart .links .footer_aboutpart-icon a i{
+    color: #61c5f0;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 13px;
+    margin-top: 30px;
+   
+}
+.footer_part .footer_aboutpart .links h1{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+	font-weight: 400;
+    padding: 10px 0px;
+}
+
+/*--================ End Footer Part ================--*/
+
+
+/*--================ Start Copyright Part============--*/
+#copyright{
+    background: #1a2142;
+	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+#copyright .copyright_part{
+	display: flex;
+	justify-content: center;
+}
+#copyright .copyright_part .text{
+	margin-top: 10px;
+}
+#copyright p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+}
+/*--================ End Copyright Part ================--*/
